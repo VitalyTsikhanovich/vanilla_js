@@ -19,8 +19,9 @@ export const User = () => {
         console.log("age changed: " + event.currentTarget.value)
     }
 
-    return <div><textarea onChange={onNameChanged} onBlur={focusLostHandler}>Dimych</textarea>
-        <input onChange={onAgeChanged} type={"number"}/>
+    return <div>
+        <textarea onChange={onNameChanged} onBlur={focusLostHandler}>Ermac</textarea>
+        <input onChange={onAgeChanged} type={"number"} />
         <button name="delete" onClick={deleteUser}>delete</button>
     </div>
 }

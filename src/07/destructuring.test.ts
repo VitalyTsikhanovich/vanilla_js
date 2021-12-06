@@ -1,12 +1,12 @@
- // type ManType = {
- //    name: string
- //    age: number
- //    lessons: Array<{ title: string }>
- //    address: {
- //        street: {
- //            title: string
- //        }
- //    }
+// type ManType = {
+//    name: string
+//    age: number
+//    lessons: Array<{ title: string }>
+//    address: {
+//        street: {
+//            title: string
+//        }
+//    }
 // }
 
 import {ManType} from "./destructuring";
